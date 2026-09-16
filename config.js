@@ -1,9 +1,9 @@
 // Edit this file to change what the site says. Everything else is fetched from GitHub.
 window.SITE = {
   user: "Jadiouo",
-  name: "Jadiouo",
-  tagline: "機器人：從嵌入式感測器、控制律、路徑規劃到多機器人群體行為，每個演算法自己寫一遍、放進模擬器裡量給自己看。",
-  taglineEn: "Robotics end to end — sensors and firmware, control and planning, multi-robot swarms — with the algorithms written by hand so I know where they break.",
+  name: "何皓廷 · Hao-Ting (Lex) Ho",
+  tagline: "東海大學電機，2027 畢業。做機器人：狀態估計與感測器融合最深，控制從國中開始，ROS 2 與嵌入式做到實機，現在把力氣放在多機器人。每個演算法自己寫一遍、放進模擬器裡量給自己看。",
+  taglineEn: "Robotics student, Tunghai University (EE, class of 2027). State estimation and sensor fusion, control, ROS 2 and embedded down to real hardware; now working on multi-robot systems. I write the algorithms myself so I know where they break.",
   links: [
     { label: "GitHub", href: "https://github.com/Jadiouo" },
     // { label: "Email", href: "mailto:you@example.com" },
@@ -42,7 +42,7 @@ window.SITE = {
   hide: ["Jadiouo", "Jadiouo.github.io", "desktop-tutorial"],
 
   about: `
-    <p>目前在做的：把地面上的無人機群體實驗當成軌道近距離操作（RPO）的試驗台；把群體控制從模擬搬到 Crazyflie 實機；一直在寫讓自己工作流程更快的 CLI。</p>
+    <p>目前在做的：<strong>TartanIMU Challenge</strong>（CMU AirLab，IROS 2026 workshop）——單一模型跨 car / drone / quadruped / handheld 四種平台的 IMU 估計；<strong>感知劣化環境下的多機器人主動探索</strong>——大學專題，寫成 letter 投 IEEE RA-L；一篇關於 sensor-only 加速度計偏差估計之測量效度的論文，投稿 IEEE Transactions on Instrumentation and Measurement（審稿中）。</p>
     <p>這個頁面沒有建置步驟：<code>config.js</code> 決定精選與分組，其餘資料由瀏覽器直接向 GitHub API 讀取，所以新增 repo、加上 topics 之後這裡就會自動出現。</p>
   `,
 };
