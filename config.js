@@ -15,7 +15,7 @@ window.SITE = {
     { repo: "gz-drone-swarm-pursuit", blurb: "3D 無人機群體合作追捕（Gazebo Harmonic + ROS 2 Jazzy）。自由飛行的微重力動力學，同時是太空近距離操作的地面試驗台。" },
     { repo: "boids-swarm-pursuit", blurb: "ROS 2 多機器人群體智慧：分散式、局部感知的 boids 合作圍捕 2× 速度的目標。" },
     { repo: "pixels-to-pose", blurb: "ArUco 偵測 + 6-DoF 位姿估計，合成資料、驗證優先；為 JAXA Kibo-RPC 的視覺模組而做。" },
-    { repo: "path-planning-and-tracking", blurb: "A*/RRT* 規劃與 Pure Pursuit / Stanley / LQR 追蹤，自己的模擬器與 benchmark，速度包絡前瞻煞車消融實驗。" },
+    { repo: "grid-path-planning", blurb: "Occupancy grid 上的 A* 與 RRT*（rewire 時傳播子樹成本），純 NumPy，同一張地圖上的對照與測試。" },
     { repo: "linear-algebra-lab", blurb: "從向量空間公理到 AI：八個互動專案，核心演算法全部手刻，588 個單元測試。" },
     { repo: "bayesian-inference-portfolio", blurb: "一條式子 p(θ|D) ∝ p(D|θ)·p(θ)，五個領域、十個完整專案。" },
     { repo: "scarce-actuator-arbitration", blurb: "兩台機器人都呼叫唯一能幫忙的致動器時，「先服務最緊急的」在 urgency 不可驗證時還成立嗎？" },
